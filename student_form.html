@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>
+        student registration form
+    </title>
+    <style>
+        #Form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            text-decoration: underline;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        button[type="submit"] {
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body background="C:\Users\keert\Pictures\Saved Pictures\360_F_416424665_HW9hEYroCM4BNlpjCYDxjMyaWJxu6zyE.jpg">
+    <h1 style="font-size:60px;text-align: center;background-color:rgb(63, 62, 62);color:aliceblue;height:100px;text-decoration:underline">Student Registration Form</h1>
+    <form id="Form">
+        <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+
+</html>
